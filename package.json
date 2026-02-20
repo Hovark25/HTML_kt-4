@@ -1,0 +1,12 @@
+{
+  "name": "kt4",
+  "private": true,
+  "devDependencies": {
+    "sass": "^1.70.0"
+  },
+  "scripts": {
+    "dev": "sass --watch scss:css --style=expanded",
+    "build": "sass scss:css --style=compressed",
+    "preview": "npx serve . -l 5173"
+  }
+}
